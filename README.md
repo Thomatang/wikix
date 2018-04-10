@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# wikix
+A wiki app built using RUby on Rails
+>>>>>>> 89f03e0435c1f75ccf11a9c8752fa638ed861bf8
