@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+##using the faker gem to generate 10 articles titles and content
+## Article calls an instance of the class created in model
+10.times do
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+Article.create(title: Faker::Hipster.word, content: Faker::Hipster.paragraph(2))
+end
